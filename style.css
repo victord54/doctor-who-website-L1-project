@@ -27,6 +27,28 @@ nav
   margin-top: 50px;
 }
 
+.menu a
+{
+  outline: none;
+  text-decoration: none;
+}
+
+.menu a:link, .menu a:visited
+{
+    color: #ff006e
+}
+
+.menu a:hover
+{
+  font-size: 120%;
+}
+
+
+#p_menu
+{
+  text-align: center;
+}
+
 section
 {
   width: 1300px;
