@@ -1,6 +1,6 @@
 body
 {
-  background-color: #7a7a7a;
+  background-color: gray;
   font-family: "Gill Sans", sans-serif;
 }
 
@@ -8,6 +8,8 @@ header
 {
   height: 300px;
   background-image: url("ressources/entete.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 nav
@@ -16,7 +18,15 @@ nav
   width: 10%;
   height: 400px;
   margin-top: 30px;
-  background-color: #2A9D8F;
+  background-color: #585858;
+  opacity: 50%;
+  transition: 0.4s;
+}
+
+nav:hover
+{
+  transition: 0.6s;
+  opacity: 100%;
 }
 
 .menu li
@@ -28,11 +38,11 @@ nav
 .menu a
 {
   transition: 0.3s ease;
-  background: #2A9D8F;
+  background: #585858;
   font-size: 20px;
   text-decoration: none;
-  border-top: 4px solid #2A9D8F;
-  border-bottom: 4px solid #2A9D8F;
+  border-top: 4px solid #585858;
+  border-bottom: 4px solid #585858;
   padding: 20px 0;
   margin: 0 20px;
   color: black;
@@ -56,8 +66,8 @@ nav
 section
 {
   width: 1300px;
-  height: 1000px;
+  height: auto;
   margin: auto;
   margin-top: 150px;
-  background-color: #E9C46A;
+  background-color: #505050;
 }
