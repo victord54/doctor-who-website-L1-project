@@ -1,6 +1,6 @@
 body
 {
-  background-color: gray;
+  background-color: #DE7C5A;
   font-family: "Gill Sans", sans-serif;
 }
 
@@ -18,7 +18,7 @@ nav
   width: 11%;
   height: 400px;
   margin-top: 30px;
-  background-color: #585858;
+  background-color: #29335C;
   opacity: 50%;
   transition: 0.4s;
 }
@@ -39,14 +39,14 @@ nav:hover
 .menu a
 {
   transition: 0.3s ease;
-  background: #585858;
+  background: #29335C;
   font-size: 20px;
   text-decoration: none;
-  border-top: 4px solid #585858;
-  border-bottom: 4px solid #585858;
+  border-top: 4px solid #29335C;
+  border-bottom: 4px solid #29335C;
   padding: 20px 0;
   margin: 0 20px;
-  color: black;
+  color: white;
 }
 
 .menu a:hover
@@ -60,8 +60,9 @@ nav:hover
 #p_menu
 {
   text-align: center;
-  border-left: 40px solid #7a7a7a;
-  border-right: 40px solid #7a7a7a;
+  border-left: 40px solid white;
+  border-right: 40px solid white;
+  color: white;
 }
 
 #presentation
@@ -70,8 +71,15 @@ nav:hover
   height: auto;
   margin: auto;
   margin-top: 150px;
-  background-color: #505050;
+  background-color: #29335C;
+  color: white;
 }
+
+#presentation a
+{
+  color: #DE7C5A;
+}
+
 
 #description
 {
@@ -79,7 +87,8 @@ nav:hover
   height: auto;
   margin: auto;
   margin-top: 150px;
-  background-color: #505050;
+  background-color: #29335C;
+  color: white;
 }
 
 #habitants
@@ -88,7 +97,8 @@ nav:hover
   height: auto;
   margin: auto;
   margin-top: 150px;
-  background-color: #505050;
+  background-color: #29335C;
+  color: white;
 }
 
 #avis_site
@@ -97,5 +107,6 @@ nav:hover
   height: auto;
   margin: auto;
   margin-top: 150px;
-  background-color: #505050;
+  background-color: #29335C;
+  color: white;
 }
