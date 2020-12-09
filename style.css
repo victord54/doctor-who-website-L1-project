@@ -15,7 +15,7 @@ header
 nav
 {
   position: fixed;
-  width: 10%;
+  width: 11%;
   height: 400px;
   margin-top: 30px;
   background-color: #585858;
@@ -33,6 +33,7 @@ nav:hover
 {
   list-style: none;
   margin-top: 50px;
+  margin-left: 10px;
 }
 
 .menu a
@@ -63,9 +64,36 @@ nav:hover
   border-right: 40px solid #7a7a7a;
 }
 
-section
+#presentation
 {
-  width: 1300px;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 150px;
+  background-color: #505050;
+}
+
+#description
+{
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 150px;
+  background-color: #505050;
+}
+
+#habitants
+{
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 150px;
+  background-color: #505050;
+}
+
+#avis_site
+{
+  width: 70%;
   height: auto;
   margin: auto;
   margin-top: 150px;
