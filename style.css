@@ -1,6 +1,7 @@
 body
 {
   background-color: #7a7a7a;
+  font-family: "Gill Sans", sans-serif;
 }
 
 header
@@ -13,7 +14,7 @@ nav
 {
   position: fixed;
   width: 10%;
-  height: 320px;
+  height: 400px;
   margin-top: 30px;
   background-color: #2A9D8F;
 }
@@ -26,24 +27,30 @@ nav
 
 .menu a
 {
-  outline: none;
+  transition: 0.3s ease;
+  background: #2A9D8F;
+  font-size: 20px;
   text-decoration: none;
-}
-
-.menu a:link, .menu a:visited
-{
-    color: #ff006e
+  border-top: 4px solid #2A9D8F;
+  border-bottom: 4px solid #2A9D8F;
+  padding: 20px 0;
+  margin: 0 20px;
+  color: black;
 }
 
 .menu a:hover
 {
-  font-size: 120%;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
 }
 
 
 #p_menu
 {
   text-align: center;
+  border-left: 40px solid #7a7a7a;
+  border-right: 40px solid #7a7a7a;
 }
 
 section
