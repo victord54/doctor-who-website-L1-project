@@ -22,7 +22,88 @@
 
     <section id="avis_site"> <!--Une partie principale de la page-->
       <h1>Donnez votre avis sur notre site</h1>
-    </section>
+      <form action="page4.html" method="post">
+        <!-- Formulaire 1ère partie -->
+        <fieldset>
+          <legend>Qui êtes-vous ?</legend>
+          <!-- Formulaire : Nom -->
+          <label for="nom">Nom : </label><input type="text" name="nom" id="nom" autofocus maxlength="30" required placeholder="Pond">
+          <br>
 
+          <!-- Formulaire : Prénom -->
+          <label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom" maxlength="30" required placeholder="Amelia">
+          <br>
+
+          <!-- Formulaire : Civilité -->
+          <label for="civilite">Civilité :</label>
+          <select name="civilite" id="civilite">
+            <option selected value="m">M.</option>
+            <option value="mme">Mme.</option>
+            <option value="mlle">Mlle.</option>
+          </select>
+          <br>
+
+          <!-- Formulaire : Mail -->
+          <label for="mail">Adresse mail : </label><input type="email" name="mail" id="mail" required maxlength="30" placeholder="doctor@tardis.bbc">
+          <br>
+        </fieldset>
+
+        <!-- Formulaire 2ème partie -->
+        <fieldset>
+          <legend>Que pensez vous du site ?</legend>
+
+          <!-- Formulaire : Qualité site -->
+          Comment jugez-vous la qualité du contenu proposé ?
+          <br>
+          <input type="radio" name="qualité" value="excellent" id="excellent" checked><label for="excellent">Excellent</label><br>
+          <input type="radio" name="qualité" value="tres_bon" id="tres_bon"><label for="tres_bon">Très Bon</label><br>
+          <input type="radio" name="qualité" value="bon" id="bon"><label for="bon">Bon</label><br>
+          <input type="radio" name="qualité" value="correct" id=correct><label for="correct">Correct</label><br>
+          <br>
+
+          <!-- Formulaire : Parties préférées -->
+          Quelle partie avez vous préférée ?
+          <br>
+          <input type="checkbox" name="pref" id="accueil"><label for="accueil">Accueil</label><br>
+          <input type="checkbox" name="pref" id="description"><label for="description">Description</label><br>
+          <input type="checkbox" name="pref" id="habitants"><label for="habitants">Habitants</label><br>
+          <input type="checkbox" name="pref" id="rien"><label for="rien">Rien tout est nul</label><br>
+          <br>
+
+          <!-- Changer site -->
+          <label for="changer_one">S'il fallait changer une seule chose sur le site ?</label>
+          <br>
+          <select name="changer_one" id="changer_one" size="6">
+            <option value="contenu">Le contenu</option>
+            <option value="mise_en_page">La mise en page</option>
+            <option value="navigation">La navigation</option>
+            <option value="lecture">La lecture</option>
+            <option value="images">Les images utilisées</option>
+            <option value="sources">Les sources utilisées</option>
+            <option value="rien">Rien, tout est parfait</option>
+          </select>
+          <br><br>
+                   
+          <!-- Formulaire : Attractif -->
+          <label for="type">Le site est attractif : </label><input type="text" name="type" id="type" list="attractif" placeholder="Oui ou Non">
+          <datalist id="attractif">
+            <option value="Oui">
+            <option value="Non">
+          </datalist>
+          <br><br>
+
+          <!-- Avis rédigé -->
+          <label for="avis">Rédigez un avis personnel :</label>
+          <br>
+          <textarea name="avis" id="avis" rows="10" cols="40"></textarea>
+          <br><br>
+
+        <!-- Formulaire : Réinitialiser -->
+        <input type="reset" name="reset" id="reset" value="Voyager dans le passé">
+
+        <!-- Formulaire : Soumettre -->
+        <input type="submit" name="submit" id="submit" value="Soumettre">
+      </form>
+    </section>
   </body>
 </html>
