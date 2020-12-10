@@ -6,6 +6,9 @@ body
 
 header
 {
+  margin-top: -1%;
+  margin-right: -0.3%;
+  margin-left: -0.3%;
   height: 300px;
   background-image: url("ressources/entete.png");
   background-repeat: no-repeat;
