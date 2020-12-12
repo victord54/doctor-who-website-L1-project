@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
 body
 {
   background-color: #DE7C5A;
-  font-family: "Gill Sans", sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 header
@@ -95,6 +97,11 @@ section #img
 {
   position: relative;
   margin-left: 35%;
+}
+
+section #ban
+{
+  margin-left: 1%;
 }
 
 section h1
