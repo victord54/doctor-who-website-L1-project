@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body
 {
@@ -53,6 +54,12 @@ nav:hover
   color: white;
 }
 
+.current
+{
+  color: rgb(92, 92, 92);
+  font-size: 20px;
+}
+
 .menu a:hover
 {
   border-top: 4px solid #ffffff;
@@ -93,7 +100,7 @@ section p
   padding-right: 50px;
 }
 
-section #img
+section .img
 {
   position: relative;
   margin-left: 35%;
@@ -107,8 +114,10 @@ section #ban
 section h1
 {
   text-align: center;
-  font-size: 25pt;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
 }
+
 
 footer
 {
@@ -119,13 +128,15 @@ footer
 
 table
 {
-    border-collapse: collapse;
-    margin-left: 32%;
-    background-color: #DE7C5A;
+  font-family: 'Raleway', sans-serif;
+  border-collapse: collapse;
+  margin-left: 32%;
+  background-color: #DE7C5A;
 }
 td, th
 {
-    border: 1px solid black;
+  border: 1px solid black;
   padding: 5px 5px;
   text-align: center;
 }
+
