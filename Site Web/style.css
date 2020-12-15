@@ -93,6 +93,7 @@ section
   color: white;
   border-radius: 15px;
   padding: 40px 40px;
+  text-decoration: underline;
 }
 
 section p 
