@@ -153,3 +153,22 @@ td, th
 {
   margin-left: 9%;
 }
+
+#avis_site input
+{
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#avis_site select
+{ 
+  border: 1px solid #ddd ;
+  border-radius: 5px;
+}
+
+#avis_site textarea 
+{
+  font-weight: bold;
+  border-radius: 5px
+}
