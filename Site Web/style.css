@@ -10,7 +10,7 @@ body
 
 header
 {
-  margin-top: -1%;
+  margin-top: -1%; /* Pour coller l'entête au bord supérieur de la page */
   margin-right: -0.3%;
   margin-left: -0.3%;
   height: 300px;
@@ -21,20 +21,20 @@ header
 
 nav
 {
-  position: fixed;
+  position: fixed; /* Pour rendre le menu de navigation fixe par rapport à la fenêtre */
   width: 11%;
   height: 400px;
   margin-top: 30px;
   background-color: #29335C;
   opacity: 50%;
-  transition: 0.4s;
+  transition: 0.4s; /* Rend le menu transparent à 50% avec un effet de transition */
   border-radius: 15px;
 }
 
 nav:hover
 {
   transition: 0.6s;
-  opacity: 100%;
+  opacity: 100%; /* Rend le menu opaque quand la souris est dessus avec un effet de transition */
 }
 
 .menu li
@@ -48,26 +48,31 @@ nav:hover
 {
   transition: 0.4s ease;
   background: #29335C;
-  font-size: 20px;
-  text-decoration: none;
   border-top: 4px solid #29335C;
   border-bottom: 4px solid #29335C;
-  color: white;
-}
-
-.current
-{
-  color: rgb(92, 92, 92);
   font-size: 20px;
+  text-decoration: none;
+  color: white;
+  /* Nous avons ajouté un effet de transition avec des bordures top et bottom de la même
+  couleur que le background afin qu'elles soient inviisbles */ 
 }
 
 .menu a:hover
 {
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;
-  padding: 10px 0; 
+  padding: 10px 0;
+  /* Quand la souris passe sur le menu, la bordure s'éloigne 
+  en devenant blanche ce qui donne un effet dynamique */
 }
 
+.current
+{
+  color: rgb(92, 92, 92);
+  font-size: 20px;
+  /* Lien menant vers le menu de la page actuelle grisé pour qu'il ressorte par rapport
+  aux autres */
+}
 
 #p_menu
 {
@@ -91,7 +96,7 @@ section
   margin-top: 150px;
   background-color: #29335C;
   color: white;
-  border-radius: 15px;
+  border-radius: 15px; /* Arrondi les coins des bordures */
   padding: 40px 40px;
 }
 
@@ -117,7 +122,11 @@ section h1
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-  text-decoration: underline;
+  margin: 0 auto 20px auto;
+  border-bottom: 1px solid orange;
+  width: 600px;
+  border-radius: 1px;
+  padding-bottom: 20px ;
   color: orange;
 }
 
@@ -131,7 +140,7 @@ footer
 table
 {
   font-family: 'Raleway', sans-serif;
-  border-collapse: collapse;
+  border-collapse: collapse; /* Collapse colle les bordures des différents éléments du tableau */
   margin-left: 32%;
   background-color: #DE7C5A;
 }
@@ -172,3 +181,18 @@ td, th
   font-weight: bold;
   border-radius: 5px
 }
+
+#avis_site .bouton
+{
+  transition: 0.4s;
+}
+
+#avis_site .bouton:hover
+{
+  background-color:#DE7C5A;
+  transition: 0.4s;
+  transform:scale(1.1);
+}
+
+  /* Change la couleur et l'échelle du bouton quand la souris passe dessus avec
+  un effet de transition */
